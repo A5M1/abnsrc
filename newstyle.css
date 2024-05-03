@@ -1,0 +1,95 @@
+   @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+      body {
+      background-color: black;
+      color: ivory;
+      font-family: Raleway;
+      margin: 0;
+      padding: 0;
+      }
+      body a {
+      text-decoration: none;
+      color: darkgrey;
+      underline: none;
+      }
+      body a:hover {
+      text-decoration: none;
+      color: grey;
+      underline: none;
+      }
+      .container {
+      display: grid;
+      place-content: center;
+      margin: 0;
+      z-index: 1;
+      }
+      .container.body {
+      width: auto;
+      height: auto;
+      border: 2px solid grey;
+      padding: 20px;
+      }
+      .container.body p {
+      font-size: 1.2rem;
+      border: none;
+      text-align: left;
+      margin: 10px 0;
+      }
+      .container.body b {
+      text-align: center;
+      }
+      .container.body h1 {
+      font-size: 2rem;
+      border: none;
+      margin: 0;
+      text-align: center;
+      }
+      .container.body ul {
+      text-align: left;
+      padding-left: 20px;
+      margin: 10px 0;
+      }
+      .container.body h3 {
+      font-size: 1.5rem;
+      border: none;
+      margin: 0;
+      text-align: center;
+      }
+      .container.body p {
+      border: none;
+      color: ivory;
+      text-align: left;
+      margin: 10px 0;
+      }
+      .container.body p span {
+      border: none;
+      background-color: dimgrey;
+      color: ivory;
+      display: inline;
+      padding: 5px;
+      }
+      .container.body.wrap {
+      inline-size: 80%;
+      border: none;
+      word-break: break-all;
+      font-size: 1.2rem;
+      text-align: left;
+      }
+      .container.body.wrap ul {
+      padding-bottom: 5px;
+      margin: 0;
+      }
+      .container.body.wrap ul span {
+      color: white;
+      background-color: dimgrey;
+      }
+      /* Media queries for mobile responsiveness */
+      @media screen and (max-width: 600px) {
+      .container {
+      padding: 10px;
+      width: 90%;
+      }
+      .container.body h1,
+      .container.body h3 {
+      font-size: 1.8rem;
+      }
+      }
