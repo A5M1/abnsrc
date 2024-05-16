@@ -18,6 +18,7 @@
             const webpConvLink = $('<a>').attr('href', 'https://github.com/https433/WebpConv').text('WebpConv');
 
             const panikLink = $('<a>').attr('href', 'https://github.com/https433/Panik').text('panik_killer');
+            const dynav = $('<a>').attr('href', 'https://github.com/https433/abnsrc').text('src_code');
 
             const aboutLink = $('<a>').attr('href', 'about.html').text('About');
             if (activeLink === 'about') {
@@ -36,7 +37,8 @@
             projectsDropdown.append(projectsContent);
             projectsContent.append(webpConvLink);
             projectsContent.append(panikLink);
-
+            projectsContent.append(dynav);
+         
             navigation.append(homeLink);
             navigation.append(projectsDropdown);
             navigation.append(aboutLink);
