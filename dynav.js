@@ -29,7 +29,11 @@
             if (activeLink === 'contact') {
                 contactLink.addClass('active');
             }
-
+         
+            const blogLink = $('<a>').attr('href', 'https://blog.abby0666.xyz').text('Blog');
+            if (activeLink === 'blog') {
+                blogLink.addClass('active');
+            }
             const iconLink = $('<a>').attr('href', 'javascript:void(0);').css('fontSize', '15px').addClass('icon').text('\u9776').click(displaynav);
 
             projectsDropdown.append(projectsButton);
@@ -43,6 +47,8 @@
             navigation.append(projectsDropdown);
             navigation.append(aboutLink);
             navigation.append(contactLink);
+            navigation.append(blogLink);
+
             navigation.append(iconLink);
 
             return navigation;
