@@ -34,7 +34,7 @@
             if (activeLink === 'blog') {
                 blogLink.addClass('active');
             }
-            const iconLink = $('<a>').attr('href', 'javascript:void(0);').css('fontSize', '15px').addClass('icon').text('\u9776').click(displaynav);
+            const iconLink = $('<a>').attr('href', 'javascript:void(0);').css('fontSize', '15px').addClass('fa-solid fa-bars').click(displaynav);
 
             projectsDropdown.append(projectsButton);
             projectsButton.append(projectsIcon);
