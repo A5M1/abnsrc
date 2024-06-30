@@ -1,4 +1,7 @@
       .topnav {
+      margin-right: 2px;
+	margin-left: 2px;
+      border-radius: 10px !important;
       overflow: hidden;
       background-color: #222121;
       }
